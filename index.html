@@ -16,14 +16,14 @@
             <div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <nav id="hamburger-nav">
-            <div class="logo"></div>
+            <div class="logo">Jared Croyle</div>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -32,13 +32,13 @@
                 </div>
                 <div class="menu-links">
                     <a href="#about" onclick="toggleMenu()">About</a>
-                    <a href="#skills" onclick="toggleMenu()">Skills</a>
                     <a href="#experience" onclick="toggleMenu()">Experience</a>
+                    <a href="#projects" onclick="toggleMenu()">Projects</a>
                     <a href="#contact" onclick="toggleMenu()">Contact</a>
                 </div>
             </div>
         </nav>
-        <section id="hero">
+        <section id="profile">
             <div class="section__pic-container">
                 <img src="images/profile-pic.png" alt="Jared Croyle">
             </div>
@@ -68,12 +68,12 @@
                         <div class="details-container">
                             <i class="fa-solid fa-microscope fa-xl"></i>
                             <h3>Experience</h3>
-                            <p>1+ years<br>Undergraduate Research</p>
+                            <p>1+ years<br/>Undergraduate Research</p>
                         </div>
                         <div class="details-container">
                             <i class="fa-solid fa-award fa-xl"></i>
                             <h3>Education</h3>
-                            <p>B.S. Bachelors Degree<br>Expected May 2025</p>
+                            <p>B.S. Bachelors Degree<br/>Expected May 2025</p>
                         </div>
                     </div>
                     <div class="text-container">
@@ -88,9 +88,163 @@
                     </div>
                 </div>
             </div>
+            <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages and Databases</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/python.png" alt="Python icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/r.png" alt="R icon" class="icon"/>
+                            <div>
+                                <h3>R</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/bash.png" alt="Bash icon" class="icon"/>
+                            <div>
+                                <h3>Bash</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/html5.png" alt="HTML5 icon" class="icon"/>
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/css3.png" alt="CSS3 icon" class="icon"/>
+                            <div>
+                                <h3>CSS3</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/javascript.png" alt="JavaScript icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-tile">Labatory Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/dna.png" alt="Python icon" class="icon"/>
+                            <div>
+                                <h3>DNA Extraction</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/dna.png" alt="R icon" class="icon"/>
+                            <div>
+                                <h3>PCR</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/dna.png" alt="Bash icon" class="icon"/>
+                            <div>
+                                <h3>Gel Electrophoresis</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/dna.png" alt="HTML5 icon" class="icon"/>
+                            <div>
+                                <h3>Genomic Sequencing</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/culture.png" alt="HTML5 icon" class="icon"/>
+                            <div>
+                                <h3>Culturing and Isolation</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
         </div>
-        <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
     </section>
+    <section id="projects">
+        <p class="section__text__p1" id="project-margin">Browse My Recent</p>
+        <h1 class="title">Projects and Research</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="images/nsf-reu.png" alt="NSF-REU project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Fungal Metagenomics in Biocrust</h2>
+                    <div class="btn-container"></div>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='images/nsf-reu.png'">
+                        NSF-REU at UC Riverside
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://lab.stajich.org/'">
+                        Check Out the Lab
+                    </button>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                      <img src="images/evolab.png" alt="UC Berkeley Research" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Adaptive Radiation in Hawaiian Spiders</h2>
+                    <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://nature.berkeley.edu/evolab/'">
+                        Check Out the Lab
+                    </button>
+                </div>
+            </div>
+        </div>
+        <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="images/email.png" alt="email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:jcroyle@berkeley.edu">jcroyle@berkeley.edu</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/jared-croyle/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Jared Croyle. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
