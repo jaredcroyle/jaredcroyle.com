@@ -71,6 +71,11 @@ a:hover {
     cursor: pointer;
 }
 
+#btn-cv:link {
+    color: black;
+    text-decoration: none;
+}
+
 /* HAMBURGER MENU */
 #hamburger-nav {
     display: none;
